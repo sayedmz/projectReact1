@@ -1,0 +1,46 @@
+.coreConcepts {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background-color: #140524;
+  border-radius: 0.5rem;
+  ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+
+    li {
+      width: 10rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    img {
+      width: 6rem;
+      height: 4rem;
+      object-fit: cover;
+    }
+  }
+}
+.exemples {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  ul {
+    display: flex;
+    gap: 2rem;
+  }
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

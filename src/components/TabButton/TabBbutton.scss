@@ -1,0 +1,14 @@
+.TabButton {
+  button {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #a18aba;
+    border: none;
+    transition: all 0.2s linear;
+    &:hover {
+      color: white;
+      background-color: blueviolet;
+    }
+  }
+}
