@@ -4,8 +4,13 @@ import propTypes from "prop-types";
 const TabButton = (props) => {
   const { children, onClick, isSelected } = props;
   return (
-    <li className={`TabButton ${isSelected ? "active" : ""}`}>
-      <button onClick={onClick}>{children}</button>
+    <li>
+      <button
+        className={`TabButton ${isSelected ? "active" : ""}`}
+        onClick={onClick}
+      >
+        {children}
+      </button>
     </li>
   );
 };

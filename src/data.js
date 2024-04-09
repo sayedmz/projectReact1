@@ -80,3 +80,9 @@ function Counter() {
 }`,
   },
 };
+export const buttons = [
+  { name: "components", id: 1, leabel: "Components" },
+  { name: "jsx", id: 2, leabel: "Jsx" },
+  { name: "props", id: 3, leabel: "Props" },
+  { name: "state", id: 4, leabel: "State" },
+];

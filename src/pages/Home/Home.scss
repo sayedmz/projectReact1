@@ -5,7 +5,8 @@
   gap: 1.5rem;
   background-color: #140524;
   border-radius: 0.5rem;
-  ul {
+  ul,
+  menu {
     margin: 0;
     padding: 0;
     display: flex;
@@ -33,13 +34,15 @@
   flex-direction: column;
   align-items: flex-start;
 
-  ul {
+  ul,
+  menu {
     display: flex;
     gap: 2rem;
   }
 }
 
-ul {
+ul,
+menu {
   margin: 0;
   padding: 0;
   list-style: none;
